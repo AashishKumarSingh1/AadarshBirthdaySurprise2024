@@ -27,12 +27,10 @@ export default function Happy() {
           setMessage('');
           setName('');
           var xhttp=new XMLHttpRequest;
-          xhttp.open('POST','incrementGreeting',true);
+          xhttp.open('POST','/incrementNewGreeting',true);
           xhttp.send();          
         },
-        (error) => {
-          alert("There was an error while sending your Greeting!\nPlease try again!");
-        },
+        
       );
      
   };
