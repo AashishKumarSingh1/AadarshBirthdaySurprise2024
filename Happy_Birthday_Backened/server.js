@@ -51,6 +51,18 @@ async function createServer() {
       }
     });
 
+    app.post('/incrementNewGreeting', async (req, res) => {
+      try {
+        const result = await userInfoCollection.updateOne(
+          { Visitors_Greeted: { $exists: true } },
+          { $inc: { Visitors_Greeted: 1 } }
+        );
+        
+      } catch (error) {
+        res.status(500).json({ error: 'An error occurred' });
+      }
+    });
+
     app.post('/realtime', async (req, res) => {
       try {
         const visitorsData = await userInfoCollection.findOne(
@@ -71,7 +83,7 @@ async function createServer() {
     app.post('/incrementGreeting', async (req, res) => {
       try {
         const result = await userInfoCollection.updateOne(
-          { Owner: 'Aashish Kumar Singh' },
+          { Visitors_Greeted: { $exists: true } },
           { $inc: { Visitors_Greeted: 1 } }
         );
         if (result.modifiedCount === 1) {
