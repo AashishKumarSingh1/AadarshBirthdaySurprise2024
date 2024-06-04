@@ -1,5 +1,5 @@
 <h1>Surprise Gift For Aadarsh Kumar Singh</h1>
-<p>Welcome to a special digital surprise for Aadarsh Kumar Singh's birthday! This vibrant site lets friends and family send gifts via the "Say Happy B'day to Aadarsh" section, share heartfelt wishes, and enjoy multimedia content. With a user-friendly interface and responsive design, this site promises an unforgettable online experience for Aadarsh and all visitors.</p>
+<p>Welcome to a special digital surprise for Aadarsh Kumar Singh's birthday! This vibrant site lets friends and family send gifts via the "Say Happy Birthday to Aadarsh" section, share heartfelt wishes, and enjoy multimedia content. With a user-friendly interface and responsive design, this site promises an unforgettable online experience for Aadarsh and all visitors.</p>
 <h3>Table of Contents </h3>
 <ul>
   <li>Features</li>
